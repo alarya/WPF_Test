@@ -1,0 +1,19 @@
+﻿<Window x:Class="WPFTestApp1.TextInputTest"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFTestApp1"
+        mc:Ignorable="d"
+        Title="TextInputTest" Height="300" Width="300">
+    <Grid>
+
+        <StackPanel Orientation="Horizontal" Margin="10,10,133,220">
+            <Label Target="{Binding ElementName=myTxt}">
+                _Name:
+            </Label>
+            <TextBox x:Name="myTxt" Width="90"/>
+        </StackPanel>
+        
+    </Grid>
+</Window>
